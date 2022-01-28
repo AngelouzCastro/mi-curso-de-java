@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd" xmlns:cfdi="http://www.sat.gob.mx/cfd/3" version="3.2" serie="A" folio="1298" fecha="2016-01-30T19:06:28" sello="e933nKAVcLQvNKDFSIWTr76ytHA4wOPLDbHAvxYaQ1CwRqL99882icBEfDVECGlurY5A8X8sAPBwDP5z202eE9Hy/es2D7VJvxJXQQIpZiu7U+bbDuDBZ+MdLmM4PNw8BIMap0yQpLqzGZaOsOKvnT2Lk/MTyS0RFDflGAKkDJk=" formaDePago="Pago en una sola exhibición" noCertificado="00001000000301541028" certificado="MIIEcjCCA1qgAwIBAgIUMDAwMDEwMDAwMDAzMDE1NDEwMjgwDQYJKoZIhvcNAQEFBQAwggGKMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMR8wHQYJKoZIhvcNAQkBFhBhY29kc0BzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVycmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBEaXN0cml0byBGZWRlcmFsMRQwEgYDVQQHDAtDdWF1aHTDqW1vYzEVMBMGA1UELRMMU0FUOTcwNzAxTk4zMTUwMwYJKoZIhvcNAQkCDCZSZXNwb25zYWJsZTogQ2xhdWRpYSBDb3ZhcnJ1YmlhcyBPY2hvYTAeFw0xMzEyMDQwNDA5MDhaFw0xNzEyMDQwNDA5MDhaMIG+MSYwJAYDVQQDEx1KT1NFIEFOQVNUQUNJTyBFU1FVSVZFTCBTQUxBUzEmMCQGA1UEKRMdSk9TRSBBTkFTVEFDSU8gRVNRVUlWRUwgU0FMQVMxJjAkBgNVBAoTHUpPU0UgQU5BU1RBQ0lPIEVTUVVJVkVMIFNBTEFTMRYwFAYDVQQtEw1FVVNBNzQwMTI2VFEyMRswGQYDVQQFExJFVVNBNzQwMTI2SFpTU0xOMDIxDzANBgNVBAsTBk1BVFJJWjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAhct6cbjBbS4X864GyGmwdSm1Hd3VrfMRrgRC62J5QZ2f0ASNtnl5iZYohXAOCwGpKLpqTspjWO3LtcET6dXm03rYnONE6cnI+kiH6xgqV0pyEbAcK+6Fz0NoGdIDwpG6P9g1x/K2DWu6JpI2sXtKz6GIqDN/VzhwZuO5Es8wzBkCAwEAAaMdMBswDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCBsAwDQYJKoZIhvcNAQEFBQADggEBAGfnluFqlpiesawVeU2zInV6bdTedFOb1yz7XKVhmxMaJu4GPqraJTBVs/m1ULl2gv25DmOpRWcwuZXmTp4X3A+9QdY4TndEquSbZMznlMZFUT2DHif6+boR3HfzUmlkEdN2vzcClar47jbQk8WEOEVvaKXqHEkYqPfIV5D6R6d7X4c9HG34PWNNMlpadUkCQgi7826Cf5mowDAvcEt/b4HuNZTbmPYzlx6qk41IqbD6wp97wyWCF+Potd1JrGvmFTLrDFEH70p/KpXh99C4jH3kbvYwSzb2BHj0Bi/wSZcMriSOq2Sl4qDjyXwQR9fyGUpUpHLRbWNLTApqBs4dj14=" subTotal="9301.54" descuento="19.82" TipoCambio="1.00" Moneda="MXN" total="10766.82" metodoDePago="Efectivo" LugarExpedicion="Rio Grande, Zacatecas" tipoDeComprobante="ingreso">
+	<cfdi:Emisor rfc="EUSA751006E12" nombre="ABRAHAM ESQUIVEL SALAS">
+		<cfdi:DomicilioFiscal calle="Morelos" noExterior="55" colonia="CENTRO" localidad="RIO GRANDE" municipio="Rio Grande" estado="Zacatecas" pais="Mexico" codigoPostal="98420"/>
+		<cfdi:RegimenFiscal Regimen="Régimen personas físicas actividad empresarial y profesional"/>
+	</cfdi:Emisor>
+	<cfdi:Receptor rfc="XAXX010101000" nombre="Público en General">
+		<cfdi:Domicilio calle="Conocido" noExterior="S/N" colonia="Centro" localidad="Río Grande" municipio="Río Grande" estado="Zacatecas" pais="México" codigoPostal="98400"/>
+	</cfdi:Receptor>
+	<cfdi:Conceptos>
+		<cfdi:Concepto cantidad="20" unidad="Metro" noIdentificacion="A-ASE-0304-CAT5E-INT" descripcion="Cable UTP Asekuro Categoría 5e interior, 8 hilos, 24AWG Gris" valorUnitario="2.7087" importe="54.17">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="2" unidad="Pieza" noIdentificacion="766623790055" descripcion="Plug Intellinet RJ45" valorUnitario="3.88" importe="7.76">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="1" unidad="NO APLICABLE" noIdentificacion="RECARGA TELCEL" descripcion="RECARGA TELCEL" valorUnitario="43.103448" importe="43.10">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="1" unidad="NO APLICABLE" noIdentificacion="RECARGA TELCEL" descripcion="RECARGA TELCEL" valorUnitario="17.241379" importe="17.24">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="1" unidad="NO APLICABLE" noIdentificacion="RECARGA TELCEL" descripcion="RECARGA TELCEL" valorUnitario="17.241379" importe="17.24">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="6" unidad="Pieza" noIdentificacion="DP-080" descripcion="Cinta Datapac DP-080 para Epson ERC 30/34 Negra" valorUnitario="34.48" importe="206.88">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="1" unidad="pieza" noIdentificacion="CN-593" descripcion="Tinta Epon T090120 negra p/Stylus C92/CX5600/T20/T21/TX100/TX110" valorUnitario="258.6206" importe="258.62">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="1" unidad="Pieza" noIdentificacion="CN-805" descripcion="Tinta HP 60 Negra CC640WL" valorUnitario="282.7586" importe="282.76">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="1" unidad="Pieza" noIdentificacion="CN-806" descripcion="Tinta  HP 60 Tricolor CC643WL p/multifuncional" valorUnitario="340.5172" importe="340.52">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="1" unidad="NO APLICABLE" noIdentificacion="RECARGA TELCEL" descripcion="RECARGA TELCEL" valorUnitario="17.241379" importe="17.24">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="1" unidad="NO APLICABLE" noIdentificacion="RECARGA TELCEL" descripcion="RECARGA TELCEL" valorUnitario="17.241379" importe="17.24">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="1" unidad="NO APLICABLE" noIdentificacion="RECARGA TELCEL" descripcion="RECARGA TELCEL" valorUnitario="17.241379" importe="17.24">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="1" unidad="NO APLICABLE" noIdentificacion="RECARGA MOVISTAR" descripcion="RECARGA MOVISTAR" valorUnitario="17.241379" importe="17.24">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="1" unidad="NO APLICABLE" noIdentificacion="RECARGA TELCEL" descripcion="RECARGA TELCEL" valorUnitario="17.241379" importe="17.24">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="1" unidad="Pieza" noIdentificacion="RAM-1860" descripcion="Memoria Sodimm DDR2 2 Gb PC800 Mhz serie premier Adata" valorUnitario="577.5862" importe="577.59">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="1" unidad="NO APLICABLE" noIdentificacion="RECARGA TELCEL" descripcion="RECARGA TELCEL" valorUnitario="86.206897" importe="86.21">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="1" unidad="NO APLICABLE" noIdentificacion="RECARGA TELCEL" descripcion="RECARGA TELCEL" valorUnitario="17.241379" importe="17.24">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="1" unidad="Pieza" noIdentificacion="R1-H05S" descripcion="Toner Remanufacturado R1-H05AU p/HP P2035/2055" valorUnitario="431.0344" importe="431.03">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="1" unidad="Pieza" noIdentificacion="CN-1615" descripcion="Tinta Epson Cyan modelo 664 para L110/L200/L210/L350/555/L300" valorUnitario="163.7931" importe="163.79">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="1" unidad="NO APLICABLE" noIdentificacion="RECARGA TELCEL" descripcion="RECARGA TELCEL" valorUnitario="86.206897" importe="86.21">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="1" unidad="NO APLICABLE" noIdentificacion="RECARGA TELCEL" descripcion="RECARGA TELCEL" valorUnitario="17.241379" importe="17.24">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="1" unidad="NO APLICABLE" noIdentificacion="RECARGA TELCEL" descripcion="RECARGA TELCEL" valorUnitario="25.862069" importe="25.86">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="1" unidad="NO APLICABLE" noIdentificacion="RECARGA TELCEL" descripcion="RECARGA TELCEL" valorUnitario="17.241379" importe="17.24">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="1" unidad="Pieza" noIdentificacion="RAM-1826" descripcion="Memoria Flash 16 Gb USB 2.0 C906 Negra Adata." valorUnitario="120.6896" importe="120.69">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="1" unidad="NO APLICABLE" noIdentificacion="RECARGA TELCEL" descripcion="RECARGA TELCEL" valorUnitario="17.241379" importe="17.24">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="1" unidad="NO APLICABLE" noIdentificacion="RECARGA TELCEL" descripcion="RECARGA TELCEL" valorUnitario="17.241379" importe="17.24">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="1" unidad="Pieza" noIdentificacion="CSP-60" descripcion="Fuente de Poder ATX Acteck 500 W para Desktop Kendal/bern/berlin" valorUnitario="275.862" importe="275.86">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="1" unidad="Pieza" noIdentificacion="CN-1891" descripcion="Cartucho Epson Magenta modelo 673 para L800" valorUnitario="181.0344" importe="181.03">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="1" unidad="NO APLICABLE" noIdentificacion="RECARGA TELCEL" descripcion="RECARGA TELCEL" valorUnitario="17.241379" importe="17.24">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="1" unidad="NO APLICABLE" noIdentificacion="RECARGA TELCEL" descripcion="RECARGA TELCEL" valorUnitario="17.241379" importe="17.24">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="1" unidad="NO APLICABLE" noIdentificacion="RECARGA TELCEL" descripcion="RECARGA TELCEL" valorUnitario="25.862069" importe="25.86">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="1" unidad="NO APLICABLE" noIdentificacion="RECARGA MOVISTAR" descripcion="RECARGA MOVISTAR" valorUnitario="51.724138" importe="51.72">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="8" unidad="Pieza" noIdentificacion="285A" descripcion="Toner Remanufacturado HP laserjet  285A p/P1102, LJP1100/P1102M/M1130" valorUnitario="431.0344" importe="3448.28">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="3" unidad="Pieza" noIdentificacion="R1-H05S" descripcion="Toner Remanufacturado R1-H05AU p/HP P2035/2055" valorUnitario="431.0344" importe="1293.10">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="1" unidad="Pieza" noIdentificacion="CB-480" descripcion="Cable HDMI de alta velocidad con canal Ethernet, M-M Blindado, Negro 2 Mts" valorUnitario="99.1379" importe="99.14">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="1" unidad="Pieza" noIdentificacion="101S" descripcion="Toner Remanufacturado P/Samsung ML 2165/2165W" valorUnitario="517.2413" importe="517.24">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="1" unidad="Pieza" noIdentificacion="CN-1890" descripcion="Cartucho Epson Cyan Modelo  673 para L800/L1800" valorUnitario="198.2758" importe="198.28">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="1" unidad="Pieza" noIdentificacion="CN-1894" descripcion="Cartucho Epson Magenta Light modelo 673 para L800/L1800" valorUnitario="198.2758" importe="198.28">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="1" unidad="NO APLICABLE" noIdentificacion="RECARGA TELCEL" descripcion="RECARGA TELCEL" valorUnitario="43.103448" importe="43.10">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="1" unidad="NO APLICABLE" noIdentificacion="RECARGA TELCEL" descripcion="RECARGA TELCEL" valorUnitario="43.103448" importe="43.10">
+		</cfdi:Concepto>
+	</cfdi:Conceptos>
+	<cfdi:Impuestos totalImpuestosTrasladados="1485.10">
+		<cfdi:Traslados>
+			<cfdi:Traslado impuesto="IVA" tasa="16.00" importe="1485.10"/>
+		</cfdi:Traslados>
+	</cfdi:Impuestos>
+	<cfdi:Complemento><tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/TimbreFiscalDigital/TimbreFiscalDigital.xsd" selloSAT="JutgZrKv55zy0+Gzp3aHACjXkoKKByfp3Fe2j5hMQPOqJuypaxHcoSK+diuSxsk7YK0SJvamyzUnZYHAY/gwNB7vqmFn9PzC6zO0javkefsp8S8gHCc6tWKifyKqsJWPGaA42ilvdVaFwsrRc1UchvEvuhRusk1QeK4DLZkZRFfclKwhW3OIP6VlYfHnosN7O5TXUFzQ/wPy/lywZ9BiEgmInlvFBsNJRqyuEEheQiTSn/oALYcWab95FU3wyYkz7PYSYtFCbvtupzKaTExD7BP3rI+wHUA6UuE/tAqSueh5yLaVNzsheQYziAmvsRrsbkj+Jvod64zjtAadICvhGw==" noCertificadoSAT="00001000000401041203" selloCFD="e933nKAVcLQvNKDFSIWTr76ytHA4wOPLDbHAvxYaQ1CwRqL99882icBEfDVECGlurY5A8X8sAPBwDP5z202eE9Hy/es2D7VJvxJXQQIpZiu7U+bbDuDBZ+MdLmM4PNw8BIMap0yQpLqzGZaOsOKvnT2Lk/MTyS0RFDflGAKkDJk=" FechaTimbrado="2016-01-30T19:10:56" UUID="33786419-B892-4B46-BDAD-037EE41511E9" version="1.0"/></cfdi:Complemento></cfdi:Comprobante>

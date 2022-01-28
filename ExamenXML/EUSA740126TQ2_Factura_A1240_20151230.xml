@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd" xmlns:cfdi="http://www.sat.gob.mx/cfd/3" version="3.2" serie="A" folio="1240" fecha="2015-12-30T12:31:52" sello="PP+SuEpVIz6dUgh0xuk0IeVSyiZLMsyL3l6xNhNDfY/X56hYajzfwa0zskl+Vu8iPthIUuc33y7sjJzjIZnT4uf01WQ7njEbA6Dnq51Pio1rwLDNEICbrCJ+nNEs4tmhoVJf29W+aJaAtjDdsfpnmpdzzVXSIASYQh61Qfn6aQk=" formaDePago="Pago en una sola exhibición" noCertificado="00001000000301541028" certificado="MIIEcjCCA1qgAwIBAgIUMDAwMDEwMDAwMDAzMDE1NDEwMjgwDQYJKoZIhvcNAQEFBQAwggGKMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMR8wHQYJKoZIhvcNAQkBFhBhY29kc0BzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVycmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBEaXN0cml0byBGZWRlcmFsMRQwEgYDVQQHDAtDdWF1aHTDqW1vYzEVMBMGA1UELRMMU0FUOTcwNzAxTk4zMTUwMwYJKoZIhvcNAQkCDCZSZXNwb25zYWJsZTogQ2xhdWRpYSBDb3ZhcnJ1YmlhcyBPY2hvYTAeFw0xMzEyMDQwNDA5MDhaFw0xNzEyMDQwNDA5MDhaMIG+MSYwJAYDVQQDEx1KT1NFIEFOQVNUQUNJTyBFU1FVSVZFTCBTQUxBUzEmMCQGA1UEKRMdSk9TRSBBTkFTVEFDSU8gRVNRVUlWRUwgU0FMQVMxJjAkBgNVBAoTHUpPU0UgQU5BU1RBQ0lPIEVTUVVJVkVMIFNBTEFTMRYwFAYDVQQtEw1FVVNBNzQwMTI2VFEyMRswGQYDVQQFExJFVVNBNzQwMTI2SFpTU0xOMDIxDzANBgNVBAsTBk1BVFJJWjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAhct6cbjBbS4X864GyGmwdSm1Hd3VrfMRrgRC62J5QZ2f0ASNtnl5iZYohXAOCwGpKLpqTspjWO3LtcET6dXm03rYnONE6cnI+kiH6xgqV0pyEbAcK+6Fz0NoGdIDwpG6P9g1x/K2DWu6JpI2sXtKz6GIqDN/VzhwZuO5Es8wzBkCAwEAAaMdMBswDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCBsAwDQYJKoZIhvcNAQEFBQADggEBAGfnluFqlpiesawVeU2zInV6bdTedFOb1yz7XKVhmxMaJu4GPqraJTBVs/m1ULl2gv25DmOpRWcwuZXmTp4X3A+9QdY4TndEquSbZMznlMZFUT2DHif6+boR3HfzUmlkEdN2vzcClar47jbQk8WEOEVvaKXqHEkYqPfIV5D6R6d7X4c9HG34PWNNMlpadUkCQgi7826Cf5mowDAvcEt/b4HuNZTbmPYzlx6qk41IqbD6wp97wyWCF+Potd1JrGvmFTLrDFEH70p/KpXh99C4jH3kbvYwSzb2BHj0Bi/wSZcMriSOq2Sl4qDjyXwQR9fyGUpUpHLRbWNLTApqBs4dj14=" subTotal="880.13" TipoCambio="1.00" Moneda="MXN" total="1021.00" metodoDePago="Efectivo" LugarExpedicion="Rio Grande, Zacatecas" tipoDeComprobante="ingreso">
+	<cfdi:Emisor rfc="EUSA751006E12" nombre="ABRAHAM ESQUIVEL SALAS">
+		<cfdi:DomicilioFiscal calle="Morelos" noExterior="55" colonia="CENTRO" localidad="RIO GRANDE" municipio="Rio Grande" estado="Zacatecas" pais="Mexico" codigoPostal="98420"/>
+		<cfdi:RegimenFiscal Regimen="Régimen personas físicas actividad empresarial y profesional"/>
+	</cfdi:Emisor>
+	<cfdi:Receptor rfc="XAXX010101000" nombre="Público en General">
+		<cfdi:Domicilio calle="Conocido" noExterior="S/N" colonia="Centro" localidad="Río Grande" municipio="Río Grande" estado="Zacatecas" pais="México" codigoPostal="98400"/>
+	</cfdi:Receptor>
+	<cfdi:Conceptos>
+		<cfdi:Concepto cantidad="1" unidad="NO APLICABLE" noIdentificacion="RECARGA MOVISTAR" descripcion="RECARGA MOVISTAR" valorUnitario="17.241379" importe="17.24">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="1" unidad="NO APLICABLE" noIdentificacion="RECARGA TELCEL" descripcion="RECARGA TELCEL" valorUnitario="17.241379" importe="17.24">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="1" unidad="NO APLICABLE" noIdentificacion="RECARGA TELCEL" descripcion="RECARGA TELCEL" valorUnitario="17.241379" importe="17.24">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="1" unidad="NO APLICABLE" noIdentificacion="RECARGA TELCEL" descripcion="RECARGA TELCEL" valorUnitario="17.241379" importe="17.24">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="1" unidad="NO APLICABLE" noIdentificacion="RECARGA TELCEL" descripcion="RECARGA TELCEL" valorUnitario="43.103448" importe="43.10">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="1" unidad="NO APLICABLE" noIdentificacion="RECARGA TELCEL" descripcion="RECARGA TELCEL" valorUnitario="17.241379" importe="17.24">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="1" unidad="NO APLICABLE" noIdentificacion="RECARGA TELCEL" descripcion="RECARGA TELCEL" valorUnitario="43.103448" importe="43.10">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="1" unidad="NO APLICABLE" noIdentificacion="RECARGA TELCEL" descripcion="RECARGA TELCEL" valorUnitario="17.241379" importe="17.24">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="1" unidad="NO APLICABLE" noIdentificacion="RECARGA TELCEL" descripcion="RECARGA TELCEL" valorUnitario="43.103448" importe="43.10">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="1" unidad="NO APLICABLE" noIdentificacion="RECARGA TELCEL" descripcion="RECARGA TELCEL" valorUnitario="17.241379" importe="17.24">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="1" unidad="NO APLICABLE" noIdentificacion="RECARGA TELCEL" descripcion="RECARGA TELCEL" valorUnitario="25.862069" importe="25.86">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="1" unidad="NO APLICABLE" noIdentificacion="RECARGA TELCEL" descripcion="RECARGA TELCEL" valorUnitario="25.862069" importe="25.86">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="1" unidad="NO APLICABLE" noIdentificacion="RECARGA TELCEL" descripcion="RECARGA TELCEL" valorUnitario="86.206897" importe="86.21">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="1" unidad="NO APLICABLE" noIdentificacion="RECARGA TELCEL" descripcion="RECARGA TELCEL" valorUnitario="43.103448" importe="43.10">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="1" unidad="NO APLICABLE" noIdentificacion="RECARGA TELCEL" descripcion="RECARGA TELCEL" valorUnitario="25.862069" importe="25.86">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="1" unidad="NO APLICABLE" noIdentificacion="RECARGA MOVISTAR" descripcion="RECARGA MOVISTAR" valorUnitario="51.724138" importe="51.72">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="1" unidad="NO APLICABLE" noIdentificacion="RECARGA MOVISTAR" descripcion="RECARGA MOVISTAR" valorUnitario="17.241379" importe="17.24">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="1" unidad="NO APLICABLE" noIdentificacion="RECARGA TELCEL" descripcion="RECARGA TELCEL" valorUnitario="86.206897" importe="86.21">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="1" unidad="NO APLICABLE" noIdentificacion="RECARGA TELCEL" descripcion="RECARGA TELCEL" valorUnitario="17.241379" importe="17.24">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="4" unidad="Pieza" noIdentificacion="766623790055" descripcion="Plug Intellinet RJ45" valorUnitario="3.448276" importe="13.79">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="1" unidad="NO APLICABLE" noIdentificacion="RECARGA TELCEL" descripcion="RECARGA TELCEL" valorUnitario="17.241379" importe="17.24">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="1" unidad="NO APLICABLE" noIdentificacion="RECARGA TELCEL" descripcion="RECARGA TELCEL" valorUnitario="17.241379" importe="17.24">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="1" unidad="NO APLICABLE" noIdentificacion="RECARGA TELCEL" descripcion="RECARGA TELCEL" valorUnitario="17.241379" importe="17.24">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="1" unidad="NO APLICABLE" noIdentificacion="RECARGA TELCEL" descripcion="RECARGA TELCEL" valorUnitario="86.206897" importe="86.21">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="1" unidad="NO APLICABLE" noIdentificacion="RECARGA TELCEL" descripcion="RECARGA TELCEL" valorUnitario="25.862069" importe="25.86">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="1" unidad="Pieza" noIdentificacion="CB-163" descripcion="Cable USB A-B 1.8M NEGRO MANHATTAN" valorUnitario="30.17247" importe="30.17">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="1" unidad="NO APLICABLE" noIdentificacion="RECARGA TELCEL" descripcion="RECARGA TELCEL" valorUnitario="43.103448" importe="43.10">
+		</cfdi:Concepto>
+	</cfdi:Conceptos>
+	<cfdi:Impuestos totalImpuestosTrasladados="140.87">
+		<cfdi:Traslados>
+			<cfdi:Traslado impuesto="IVA" tasa="16.00" importe="140.87"/>
+		</cfdi:Traslados>
+	</cfdi:Impuestos>
+	<cfdi:Complemento><tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/TimbreFiscalDigital/TimbreFiscalDigital.xsd" selloSAT="R9Yf4SLAQlRzJTjT4695ts9Of0C4+vRix4bV6z2Y0fk8xxzud8/vJjB3VJZ3wkJ0FIULadlpIX8Og5Nuqu2KZkVvaQjlh14sBVZpr2DipaWaRD0E5ieXd97aqa+nvxl0gpsWgVTutDXe/RzY8Xkp6XhuDZtyLEq86WtFBmED55OM+oc5EIICvsE1WKWqO9zftQctgydjlW2TB1QePQX3MzCex4ezfPZnNfUpuEZe2zT1QKxWVrxhM4WqaCHg6ay0A8+R/uV5X1T5Y7DmctyWRO0a9+k8mwT4r4bpcNdxrCIe58HFV4MsIlDpIISwEgw0Tsqp7YkLo9HJkFQ6gRDpNA==" noCertificadoSAT="00001000000401041203" selloCFD="PP+SuEpVIz6dUgh0xuk0IeVSyiZLMsyL3l6xNhNDfY/X56hYajzfwa0zskl+Vu8iPthIUuc33y7sjJzjIZnT4uf01WQ7njEbA6Dnq51Pio1rwLDNEICbrCJ+nNEs4tmhoVJf29W+aJaAtjDdsfpnmpdzzVXSIASYQh61Qfn6aQk=" FechaTimbrado="2015-12-30T12:49:15" UUID="382C9CD2-7885-0C49-956F-3E3040BFD0B1" version="1.0"/></cfdi:Complemento></cfdi:Comprobante>

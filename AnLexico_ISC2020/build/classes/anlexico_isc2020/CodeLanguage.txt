@@ -1,0 +1,5 @@
+mientras miVariable35{
+    si(a + 3 == 4){
+        x=4;
+    }
+}

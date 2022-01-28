@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd" xmlns:cfdi="http://www.sat.gob.mx/cfd/3" version="3.2" serie="A" folio="1228" fecha="2015-12-28T18:07:37" sello="cLJr70h3q9b+572W7DtT7/8pf5IRjz85b511Am7aXpnZlRkzuyvU+FOV1a+G0I3PBMnHsIBymmp4henW7e6cOkjnU6czqBZFo2S7usEj5OM99BbcWh9Uk1Z/HU8UH5NcJq7bRX82MRopgWpHuIsRZgSt6QACs6Aldcr3+n+OIto=" formaDePago="Pago en Parcialidades" noCertificado="00001000000301541028" certificado="MIIEcjCCA1qgAwIBAgIUMDAwMDEwMDAwMDAzMDE1NDEwMjgwDQYJKoZIhvcNAQEFBQAwggGKMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMR8wHQYJKoZIhvcNAQkBFhBhY29kc0BzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVycmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBEaXN0cml0byBGZWRlcmFsMRQwEgYDVQQHDAtDdWF1aHTDqW1vYzEVMBMGA1UELRMMU0FUOTcwNzAxTk4zMTUwMwYJKoZIhvcNAQkCDCZSZXNwb25zYWJsZTogQ2xhdWRpYSBDb3ZhcnJ1YmlhcyBPY2hvYTAeFw0xMzEyMDQwNDA5MDhaFw0xNzEyMDQwNDA5MDhaMIG+MSYwJAYDVQQDEx1KT1NFIEFOQVNUQUNJTyBFU1FVSVZFTCBTQUxBUzEmMCQGA1UEKRMdSk9TRSBBTkFTVEFDSU8gRVNRVUlWRUwgU0FMQVMxJjAkBgNVBAoTHUpPU0UgQU5BU1RBQ0lPIEVTUVVJVkVMIFNBTEFTMRYwFAYDVQQtEw1FVVNBNzQwMTI2VFEyMRswGQYDVQQFExJFVVNBNzQwMTI2SFpTU0xOMDIxDzANBgNVBAsTBk1BVFJJWjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAhct6cbjBbS4X864GyGmwdSm1Hd3VrfMRrgRC62J5QZ2f0ASNtnl5iZYohXAOCwGpKLpqTspjWO3LtcET6dXm03rYnONE6cnI+kiH6xgqV0pyEbAcK+6Fz0NoGdIDwpG6P9g1x/K2DWu6JpI2sXtKz6GIqDN/VzhwZuO5Es8wzBkCAwEAAaMdMBswDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCBsAwDQYJKoZIhvcNAQEFBQADggEBAGfnluFqlpiesawVeU2zInV6bdTedFOb1yz7XKVhmxMaJu4GPqraJTBVs/m1ULl2gv25DmOpRWcwuZXmTp4X3A+9QdY4TndEquSbZMznlMZFUT2DHif6+boR3HfzUmlkEdN2vzcClar47jbQk8WEOEVvaKXqHEkYqPfIV5D6R6d7X4c9HG34PWNNMlpadUkCQgi7826Cf5mowDAvcEt/b4HuNZTbmPYzlx6qk41IqbD6wp97wyWCF+Potd1JrGvmFTLrDFEH70p/KpXh99C4jH3kbvYwSzb2BHj0Bi/wSZcMriSOq2Sl4qDjyXwQR9fyGUpUpHLRbWNLTApqBs4dj14=" subTotal="926.72" TipoCambio="1.00" Moneda="MXN" total="1075.00" metodoDePago="Efectivo" LugarExpedicion="Rio Grande, Zacatecas" tipoDeComprobante="ingreso">
+	<cfdi:Emisor rfc="EUSA751006E12" nombre="ABRAHAM ESQUIVEL SALAS">
+		<cfdi:DomicilioFiscal calle="Morelos" noExterior="55" colonia="CENTRO" localidad="RIO GRANDE" municipio="Rio Grande" estado="Zacatecas" pais="Mexico" codigoPostal="98420"/>
+		<cfdi:RegimenFiscal Regimen="Régimen personas físicas actividad empresarial y profesional"/>
+	</cfdi:Emisor>
+	<cfdi:Receptor rfc="AAVC730325TV1" nombre="Pedro Alcala Vital">
+		<cfdi:Domicilio calle="Miguel Hidalgo" noExterior="36" colonia="Nieves" municipio="Gral. Francisco R. Murguia" estado="Zacatecas" pais="México" codigoPostal="98350"/>
+	</cfdi:Receptor>
+	<cfdi:Conceptos>
+		<cfdi:Concepto cantidad="1" unidad="Pieza" noIdentificacion="CN-1958" descripcion="Tinta Negra Epson modelo 195 P/XP201, XP101, XP211" valorUnitario="116.3793" importe="116.38">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="1" unidad="Pieza" noIdentificacion="010343902305" descripcion="Tinta Epson Expression XP 101, 201, 211 Amarilla" valorUnitario="155.1724" importe="155.17">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="1" unidad="Pieza" noIdentificacion="010343902299" descripcion="Tinta Epson Expression XP 101, 201, 211 Magenta" valorUnitario="155.172414" importe="155.17">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="1" unidad="Pieza" noIdentificacion="010343902282" descripcion="Tinta Epson Expression XP 101, 201, 211 Cyan" valorUnitario="155.1724" importe="155.17">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="1" unidad="Pieza" noIdentificacion="283A" descripcion="Toner Remanufacturado para HP Laserjet PRO MFP M127FN/M125NW" valorUnitario="344.8275" importe="344.83">
+		</cfdi:Concepto>
+	</cfdi:Conceptos>
+	<cfdi:Impuestos totalImpuestosTrasladados="148.28">
+		<cfdi:Traslados>
+			<cfdi:Traslado impuesto="IVA" tasa="16.00" importe="148.28"/>
+			<cfdi:mail correo="abraham.esquivel@gmail.com" />
+		</cfdi:Traslados>
+	</cfdi:Impuestos>
+	<cfdi:Complemento><tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/TimbreFiscalDigital/TimbreFiscalDigital.xsd" selloSAT="mNxm62N/gio/kEwq2gPUhV//1Zh+aRsbGao/3/F4/tKKlJVB4K65VEatKVOLyvKTU26Yylalp+qDYg7dORixSC7NigQ8s2SgB6cinAaeQxzHT1/jEe8eh4ZG141uMnGdEn09ysUspBNnCRDPi2GJRaENSOESNw6qUpD2o4ooWd4=" noCertificadoSAT="00001000000200011997" selloCFD="cLJr70h3q9b+572W7DtT7/8pf5IRjz85b511Am7aXpnZlRkzuyvU+FOV1a+G0I3PBMnHsIBymmp4henW7e6cOkjnU6czqBZFo2S7usEj5OM99BbcWh9Uk1Z/HU8UH5NcJq7bRX82MRopgWpHuIsRZgSt6QACs6Aldcr3+n+OIto=" FechaTimbrado="2015-12-28T18:13:26" UUID="9A8A5C27-A191-FB45-B0A5-ECA86897D28F" version="1.0"/></cfdi:Complemento></cfdi:Comprobante>

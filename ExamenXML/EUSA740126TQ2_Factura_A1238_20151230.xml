@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd" xmlns:cfdi="http://www.sat.gob.mx/cfd/3" version="3.2" serie="A" folio="1238" fecha="2015-12-30T12:13:54" sello="JMBjWlzQgIb8eq+LLx8mNTjNPnWTSu0HkFHI5JpXiPeb6WO+DiLOCY5YD8eKBM6bbOyQ+1HUfvrca/oNh7/T0CfRanLM6ZlF6nPZnk1Hj6BhKd9XDcEoVuFIFUrN3d7/AL1eGrwnnUfCnMLE6M51GEaI1KPKrQ4lErgJ2y18UHY=" formaDePago="Pago en una sola exhibición" noCertificado="00001000000301541028" certificado="MIIEcjCCA1qgAwIBAgIUMDAwMDEwMDAwMDAzMDE1NDEwMjgwDQYJKoZIhvcNAQEFBQAwggGKMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMR8wHQYJKoZIhvcNAQkBFhBhY29kc0BzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVycmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBEaXN0cml0byBGZWRlcmFsMRQwEgYDVQQHDAtDdWF1aHTDqW1vYzEVMBMGA1UELRMMU0FUOTcwNzAxTk4zMTUwMwYJKoZIhvcNAQkCDCZSZXNwb25zYWJsZTogQ2xhdWRpYSBDb3ZhcnJ1YmlhcyBPY2hvYTAeFw0xMzEyMDQwNDA5MDhaFw0xNzEyMDQwNDA5MDhaMIG+MSYwJAYDVQQDEx1KT1NFIEFOQVNUQUNJTyBFU1FVSVZFTCBTQUxBUzEmMCQGA1UEKRMdSk9TRSBBTkFTVEFDSU8gRVNRVUlWRUwgU0FMQVMxJjAkBgNVBAoTHUpPU0UgQU5BU1RBQ0lPIEVTUVVJVkVMIFNBTEFTMRYwFAYDVQQtEw1FVVNBNzQwMTI2VFEyMRswGQYDVQQFExJFVVNBNzQwMTI2SFpTU0xOMDIxDzANBgNVBAsTBk1BVFJJWjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAhct6cbjBbS4X864GyGmwdSm1Hd3VrfMRrgRC62J5QZ2f0ASNtnl5iZYohXAOCwGpKLpqTspjWO3LtcET6dXm03rYnONE6cnI+kiH6xgqV0pyEbAcK+6Fz0NoGdIDwpG6P9g1x/K2DWu6JpI2sXtKz6GIqDN/VzhwZuO5Es8wzBkCAwEAAaMdMBswDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCBsAwDQYJKoZIhvcNAQEFBQADggEBAGfnluFqlpiesawVeU2zInV6bdTedFOb1yz7XKVhmxMaJu4GPqraJTBVs/m1ULl2gv25DmOpRWcwuZXmTp4X3A+9QdY4TndEquSbZMznlMZFUT2DHif6+boR3HfzUmlkEdN2vzcClar47jbQk8WEOEVvaKXqHEkYqPfIV5D6R6d7X4c9HG34PWNNMlpadUkCQgi7826Cf5mowDAvcEt/b4HuNZTbmPYzlx6qk41IqbD6wp97wyWCF+Potd1JrGvmFTLrDFEH70p/KpXh99C4jH3kbvYwSzb2BHj0Bi/wSZcMriSOq2Sl4qDjyXwQR9fyGUpUpHLRbWNLTApqBs4dj14=" subTotal="4094.81" descuento="8.02" TipoCambio="1.00" Moneda="MXN" total="4740.70" metodoDePago="Efectivo" LugarExpedicion="Rio Grande, Zacatecas" tipoDeComprobante="ingreso">
+	<cfdi:Emisor rfc="EUSA751006E12" nombre="ABRAHAM ESQUIVEL SALAS">
+		<cfdi:DomicilioFiscal calle="Morelos" noExterior="55" colonia="CENTRO" localidad="RIO GRANDE" municipio="Rio Grande" estado="Zacatecas" pais="Mexico" codigoPostal="98420"/>
+		<cfdi:RegimenFiscal Regimen="Régimen personas físicas actividad empresarial y profesional"/>
+	</cfdi:Emisor>
+	<cfdi:Receptor rfc="STA140127KK3" nombre="Servicios Aplicados de Río Grande, S. C.">
+		<cfdi:Domicilio calle="Morelos" noExterior="55" colonia="Centro" municipio="Río Grande" estado="Zacatecas" pais="México" codigoPostal="98420"/>
+	</cfdi:Receptor>
+	<cfdi:Conceptos>
+		<cfdi:Concepto cantidad="6" unidad="Pieza" noIdentificacion="766623790055" descripcion="Plug Intellinet RJ45" valorUnitario="3.88" importe="23.28">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="1" unidad="Pieza" noIdentificacion="AC-1705" descripcion="Tapa Blanca para Caja de Pared Intellinet 2 salidas" valorUnitario="21.5517" importe="21.55">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="1" unidad="Pieza" noIdentificacion="AC-2183" descripcion="Jack para Plugt Intellinet Cat 6 azul de impacto" valorUnitario="55.1724" importe="55.17">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="1" unidad="Pieza" noIdentificacion="HD-688" descripcion="Disco DuroWD Blue 2.5 1 Tb Sata 3 6Gb/S 8 Mb 5400 RPM" valorUnitario="1465.517241" importe="1465.52">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="1" unidad="Pieza" noIdentificacion="CSP-82" descripcion="Fuente de Poder ATX 2 Acteck 500 Wats AFB500P" valorUnitario="267.2413" importe="267.24">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="1" unidad="Pieza" noIdentificacion="BATER G42 268LA" descripcion="Batería para HP modelo G42 268La" valorUnitario="1004.310345" importe="1004.31">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="1" unidad="pieza" noIdentificacion="12A" descripcion="Toner Remanufacturado R1-H12A" valorUnitario="301.7241" importe="301.72">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="39" unidad="Metro" noIdentificacion="A-ASE 0302-YP1-4F-N" descripcion="Cable UTP Asekuro Categoría 5e, 8 hilos 24AWG, doble forro negro exterior" valorUnitario="6.034483" importe="235.34">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="1" unidad="Kit" noIdentificacion="KB-484" descripcion="Teclado y Mouse inalambrico Genius Slimstar 800ME US Negro" valorUnitario="258.62069" importe="258.62">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="2" unidad="Rollo" noIdentificacion="30534" descripcion="Rollo de papel Etiqueta 76x51 Térmica Directa c/1000" valorUnitario="140.5172" importe="281.03">
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="1" unidad="Pieza" noIdentificacion="NIC-1001" descripcion="Tarjeta de Red PCI Exprerss Inalámbrica TP Link Wireless 802.11 1 antena desmont." valorUnitario="181.034483" importe="181.03">
+		</cfdi:Concepto>
+	</cfdi:Conceptos>
+	<cfdi:Impuestos totalImpuestosTrasladados="653.91">
+		<cfdi:Traslados>
+			<cfdi:Traslado impuesto="IVA" tasa="16.00" importe="653.91"/>
+		</cfdi:Traslados>
+	</cfdi:Impuestos>
+	<cfdi:Complemento><tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/TimbreFiscalDigital/TimbreFiscalDigital.xsd" selloSAT="uw2vcxEtyI5VOaVpBT21RziiGu3n402EX3jKxSqTjxBFLnZIyAly9TaSEPa/T2NqEB8Y5urGI/ldvc81wET7CMW5PSCQWyfC9xz6HUaDmg6irY3odMgSoYE0k67bqYL0uCxIBVhLP6YRI2HP7lV2za8bNlHqXP3zlsZwJ8F3M2peLRoVVWCT0AEnS+oToWocWQ6SG4AMX/NQx/C9qEMfI/rvKh/KmyHYeg+LqxwTYsjUnSoykwqQzL3xjGRa6pv6I0akyttkQfpBUq76YUGdkHAq/c7LJ+WAYwms8jRgSyhDHq3E0lrd87DUt5Eyai+dA+TiQyautk3q69OjDKiUmA==" noCertificadoSAT="00001000000401041203" selloCFD="JMBjWlzQgIb8eq+LLx8mNTjNPnWTSu0HkFHI5JpXiPeb6WO+DiLOCY5YD8eKBM6bbOyQ+1HUfvrca/oNh7/T0CfRanLM6ZlF6nPZnk1Hj6BhKd9XDcEoVuFIFUrN3d7/AL1eGrwnnUfCnMLE6M51GEaI1KPKrQ4lErgJ2y18UHY=" FechaTimbrado="2015-12-30T12:19:19" UUID="AA82A612-F97B-8F4F-A679-142745A0387E" version="1.0"/></cfdi:Complemento></cfdi:Comprobante>
